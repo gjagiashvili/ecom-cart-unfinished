@@ -1,0 +1,101 @@
+.container {
+  position: relative;
+}
+
+.cartIconContainer {
+  position: relative;
+  margin-right: 20px;
+}
+
+.cartIcon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.notificationCircle {
+  position: absolute;
+  top: 0;
+  margin-left: 14px;
+  height: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.addToCartButton {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalContent {
+  background-color: #aaa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.close {
+  color: bisque;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.quantityButton {
+  background-color: orange;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.quantityDisplay {
+  font-size: 16px;
+  margin: 0 5px;
+}

@@ -1,0 +1,29 @@
+.bigImg {
+  border-radius: 5%;
+}
+
+.smallImg {
+  margin-top: 20px;
+  border-radius: 10%;
+  width: 200px;
+}
+
+.smallImgContainer {
+  display: flex;
+  gap: 60px;
+}
+.smallImg:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.smallImg.selected {
+  border-radius: 10%;
+  border: 3.5px solid orange;
+  opacity: 0.8;
+}
+
+.container {
+  margin-left: 10%;
+}
+/* აქ container-ზე ყველა სურათი (დიდებიც და პატარებიც) გადაწიეთ როგორც საიტს მოერგება (ვინც ყველას ერთად კრავს) */
